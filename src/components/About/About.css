@@ -1,0 +1,15 @@
+.about {
+  color: white;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  font-family: Inter;
+}
+
+.about > p {
+  text-align: left;
+  font-weight: 400;
+}
+
+.about > h2 {
+  font-weight: 700;
+}

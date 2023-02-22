@@ -1,0 +1,24 @@
+.myphoto {
+  /*position: absolute;*/
+  width: 20rem;
+  height: 20rem;
+}
+
+.basic-info {
+  color: white;
+  font-family: Inter;
+}
+
+.basic-info > h3 {
+  color: #f3bf99;
+  font-weight: 400;
+}
+
+.basic-info > h4 {
+  font-weight: 400;
+}
+
+.basic-info > h2 {
+  font-family: Inter;
+  font-weight: 700;
+}

@@ -1,0 +1,12 @@
+.footer {
+  font-size: 36px;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-icon {
+  margin: auto 25px;
+  color: white;
+}

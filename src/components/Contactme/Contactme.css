@@ -1,0 +1,9 @@
+.contactme {
+  display: flex;
+  justify-content:space-evenly;
+}
+
+a > img {
+  width: 115px;
+  height: 34px;
+}
