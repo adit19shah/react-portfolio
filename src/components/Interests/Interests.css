@@ -1,15 +1,14 @@
 .interests {
-    color: white;
-    margin-left: 7rem;
-    margin-right: 7rem;
-    font-family: Inter;
-  }
-  
-  .interests > p {
-    font-weight: 400;
-  }
-  
-  .interests > h2 {
-    font-weight: 700;
-  }
-  
+  color: white;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  font-family: Inter;
+}
+
+.interestsPara {
+  font-weight: 400;
+}
+
+.interestsHeading {
+  font-weight: 700;
+}

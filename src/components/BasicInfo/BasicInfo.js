@@ -1,13 +1,16 @@
-import './BasicInfo.css'
-import photo from '../../mylinkedinphoto.png';
+import "./BasicInfo.css";
+import photo from "../../mylinkedinphoto.png";
+import { memo } from "react";
 
-export default function Basic_info() {
-    return (
-        <div className='basic-info'>
-            <img src={photo} className="myphoto" alt="adit" />
-            <h2>Adit Shah</h2>
-            <h3>Frontend Developer</h3>
-            <h4>Tekion India</h4>
-        </div>
-    );
-}
+const BasicInfo = memo(function BasicInfo() {
+  return (
+    <div className="basicInfo">
+      <img src={photo} className="myphoto" alt="adit" />
+      <h2 className="myName">Adit Shah</h2>
+      <h3 className="myRole">Frontend Developer</h3>
+      <h4 className="myCompany">Tekion India</h4>
+    </div>
+  );
+});
+
+export default BasicInfo;

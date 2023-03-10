@@ -4,21 +4,21 @@
   height: 20rem;
 }
 
-.basic-info {
+.basicInfo {
   color: white;
   font-family: Inter;
 }
 
-.basic-info > h3 {
+.myRoll {
   color: #f3bf99;
   font-weight: 400;
 }
 
-.basic-info > h4 {
+.myCompany {
   font-weight: 400;
 }
 
-.basic-info > h2 {
+.myName {
   font-family: Inter;
   font-weight: 700;
 }

@@ -1,9 +1,9 @@
 .contactme {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
 
-a > img {
+.contactImage {
   width: 115px;
   height: 34px;
 }

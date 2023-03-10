@@ -5,11 +5,11 @@
   font-family: Inter;
 }
 
-.about > p {
+.aboutPara {
   text-align: left;
   font-weight: 400;
 }
 
-.about > h2 {
+.aboutHeading {
   font-weight: 700;
 }

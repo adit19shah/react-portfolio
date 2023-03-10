@@ -1,10 +1,15 @@
 import "./Interests.css";
+import { memo } from "react";
 
-export default function Interests() {
+const Interests = memo(function Interests() {
   return (
     <div className="interests">
-      <h2>Interests</h2>
-      <p>Table Tennis, Car Driving, Chess, Recursive Googling</p>
+      <h2 className="interestsHeading">Interests</h2>
+      <p className="interestsPara">
+        Table Tennis, Car Driving, Chess, Recursive Googling
+      </p>
     </div>
   );
-}
+});
+
+export default Interests;
